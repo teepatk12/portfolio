@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #333;
+}
+
+.navcon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+ margin: 0 1rem;
+}
+
+.menu li a{
+ color: aliceblue;
+ text-decoration: none;
+}
+
+.maincontent{
+    background-color: #c5c5c5;
+}
+
+.maincontenr-con{
+    display: flex;
+
+}
+.maincontent-info{
+    width: 100%;
+    padding: 2rem;
+}
+.maincontent-info h3{
+    font-size: 2rem;
+}
+
+.maincontent-info p{
+    margin: 1rem 0;
+}
+
+.maincontent-ing{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.content-title{
+    margin: 2rem 0;
+}
+
+.content-item{
+    width: 100%;
+}
+
+.content-item h4{
+    margin-top: 1rem;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+.content-item a{
+    display: inline-block;
+    background-color: #f7bb2f;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
